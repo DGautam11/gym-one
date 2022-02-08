@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym One By Team One</title>
+  <!--font awesome-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <!--Custom Css-->
+  <link rel="stylesheet" href="css_styles/style.css">
+  <!--Jquery Cdn-->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+      <div class="nav-wrapper">
+        <div class="grad-bar"></div>
+        <div class="container">
+          <nav class="navbar">
+            <a class="nav-brand" href="#"><img src="images/logo.png" alt="logo image"></a>
+            <div class="menu-toggle" id="mobile-menu">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+
+            </div>
+            <ul class="nav">
+              <li class="nav-item">
+                <a href = "index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href = "membership.html">Membership</a>
+              </li>
+              <li class="nav-item">
+                <a href = "trainers.html">Trainers</a>
+              </li>
+              <li class="nav-item">
+                <a href = "contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+
+
+    </header>
+    <!--Slide Show-->
+    <div class="slider">
+      <!-- fade css -->
+      <div class="myslide fade">
+        <div class="txt">
+          <p class="p-border">Are you ready to</p>
+          <h1> <span class="txt-primary">GET FIT</span>, STRONG
+            <br>& MOTIVATED!</h1>
+            <button class="btn">Be Member</button>
+        </div>
+        <img src="images/slider-image-01.jpg" alt="slider image" style="width: 100%; height: 100%;">
+      </div>
+
+      <div class="myslide fade">
+        <div class="txt">
+          <p class="p-border">Look in the</p>
+          <h1><span class="txt-primary" >Mirror </span>that's your <br> competition</h1>
+
+        </div>
+        <img src="images/slider-image-02.jpg" alt="slider image" style="width: 100%; height: 100%;">
+      </div>
+
+      <!-- /fade css -->
+
+
+       <!-- /onclick js -->
+      <div class="dotsbox" style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+      </div>
+
+    </div>
+
+    <!---About -->
+      <div class="wrapper">
+        <div class="container">
+          <div class="about">
+            <div class="abt-txt pdtb-2-4 ">
+              <h2 class="p-border txt-primary">About Gym</h2>
+                <p class="pdl wlcm-txt">Welcome to <span class="txt-primary">Us</span></p>
+                <p class="pdl txt-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Magna eget est lorem ipsum dolor
+                   sit amet consectetur adipiscing. Sit amet volutpat consequat mauris.</p>
+
+                <p class="pdl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Magna eget est lorem ipsum dolor
+                   sit amet consectetur adipiscing. Sit amet volutpat consequat mauris.</p>
+                <button class="btn">GET FIT</button>
+            </div>
+            <div class="abt-img pd-2-5">
+                <img src="images/about-image.jpg" alt="about image">
+            </div>
+
+          </div>
+
+          <div class="service pd-2-5">
+            <div class="service-item" >
+              <div class="item-img sbg-1"></div>
+                <p>Personal Trainer</p>
+            </div>
+            <div class="service-item">
+              <div class="item-img sbg-2"></div>
+                <p>Cycling room</p>
+            </div>
+            <div class="service-item">
+              <div class="item-img sbg-3"></div>
+                <p>Fitness Class</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    <div class="divider dvr-img-01 mtb-10">
+      <div class="container ">
+        <div class="heading pdtb-2-4">
+          <p class="p-border">Happy</p>
+          <p class="txt-primary">Hours</p>
+        </div>
+
+      </div>
+
+    </div>
+    <!--Gallery-->
+        <div class="container pd-2-5">
+          <!--Thumbnails-->
+          <div class="gl-images">
+            <a href="#img1"><img class="gl-img" src="images/gl-img-01.jpg" alt="gallery-image"></a>
+            <a href="#img2"><img class="gl-img" src="images/gl-img-02.jpg" alt="gallery-image"></a>
+            <a href="#img3"><img class="gl-img" src="images/gl-img-03.jpg" alt="gallery-image"></a>
+            <a href="#img4"><img class="gl-img" src="images/gl-img-04.jpg" alt="gallery-image"></a>
+            <a href="#img5"><img class="gl-img" src="images/gl-img-05.jpg" alt="gallery-image"></a>
+            <a href="#img6"><img class="gl-img" src="images/gl-img-06.jpg" alt="gallery-image"></a>
+          </div>
+          <!--LightBoxes-->
+          <a href="#_" class="lightbox" id="img1">
+            <div>
+               <img src="images/gl-img-01.jpg" alt="gallery image">
+            </div>
+         </a>
+         <a href="#_" class="lightbox" id="img2">
+            <div>
+               <img src="images/gl-img-02.jpg" alt="gallery image">
+            </div>
+         </a>
+         <a href="#_" class="lightbox" id="img3">
+            <div>
+               <img src="images/gl-img-03.jpg" alt="gallery image">
+
+            </div>
+         </a>
+         <a href="#_" class="lightbox" id="img4">
+            <div>
+               <img src="images/gl-img-04.jpg" alt="gallery image">
+
+            </div>
+         </a>
+         <a href="#_" class="lightbox" id="img5">
+            <div>
+               <img src="images/gl-img-05.jpg" alt="gallery image">
+            </div>
+         </a>
+         <a href="#_" class="lightbox" id="img6">
+            <div>
+               <img src="images/gl-img-06.jpg" alt="gallery image">
+
+            </div>
+         </a>
+
+        </div>
+
+<!---Divider-->
+    <div class="divider dvr-img-02 mtb-10 ">
+      <div class="container ">
+        <div class="heading pdtb-2-4">
+            <p class="p-border">Fitness</p>
+            <p class="txt-primary">Tips</p>
+          </div>
+        </div>
+      </div>
+
+  <!--Blog-->
+      <div class="container">
+        <div class="blogs pd-2-5">
+
+          <article class="blg-article">
+            <div class="blg-img">
+              <img src="images/blog-img-01.jpg" alt="">
+            </div>
+
+            <div class="blg-txt">
+              <h3>How to Lose Weight (Without Dieting): 5 Rules of Weight Loss</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                 labore et dolore magna aliqua. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed</p>
+            </div>
+
+          </article>
+
+          <article class="blg-article">
+            <div class="blg-img">
+              <img src="images/blog-img-02.jpg" alt="">
+
+            </div>
+
+            <div class="blg-txt">
+              <h3>How to Train Yourself?</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sedt </p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+
+    <footer>
+      <!--Footer main-->
+      <section class="footer mtb-10">
+      <div class="container">
+        <div class="ft-main pdtb-2-4">
+          <div class="ft-main-item">
+              <img src="images/footer-logo.png" alt="logo" height="61">
+              <h3 class="ft-brand">Gym One</h3>
+              <ul>
+                <li><i class="fa fa-map-marker" aria-hidden="true"></i> Visamaentie 13100 Hameelinna</li>
+                <li><i class="fas fa-phone-alt"></i> 040 -525222</li>
+              </ul>
+            </div>
+            <div class="ft-main-item">
+              <h3 class="ft-scl-title">Follow us</h3>
+              <ul class="ft-social-list">
+                <li><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube fa-2x"></i></a></li>
+              </ul>
+            </div>
+          <div class="ft-main-item">
+            <h3 class="ft-link-title">Quick Links</h3>
+            <ul>
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="trainers.html">Trainers</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+        <p class="pd-2-4">Opening Hours: SUN-SAT  4:00-21:00</p>
+
+      </div>
+
+    </section>
+       <!-- Footer legal -->
+      <div class="ft-legal">
+        <div class="container">
+          <p>&copy; 2022 Gym-One Designed by Team One.</p>
+         </div>
+      </div>
+
+
+    </footer>
+
+
+
+    <script src="js/nav.js">
+    </script>
+
+<script src="js/slider.js"></script>
+
+</body>
+</html>
